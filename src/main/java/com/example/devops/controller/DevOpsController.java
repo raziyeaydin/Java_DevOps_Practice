@@ -12,11 +12,11 @@ public class DevOpsController {
 
     @GetMapping("/info")
     public String getInfo(){
-        return "INFO::: " + LocalDateTime.now();
+        return "INFO ::: v2  " + LocalDateTime.now();
     }
 
     @GetMapping("/warn")
     public String getWarn(){
-        return "WARN::: " + LocalDateTime.now();
+        return "WARN ::: v2  " + LocalDateTime.now();
     }
 }
